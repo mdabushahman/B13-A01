@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background: url(../image/hero-bg.png);
+    width: 1600px;
+    height: 674px;
+    background-repeat: none;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+nav{
+    max-width: 1600px;
+    width: 100%;
+    padding: 16px 120px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 346px;
+    background-color: white;
+    
+}
+nav .menu {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+.btn{
+    padding: 12px 16px;
+    color: white;
+    font-weight: 700;
+    background: #30b868;
+    border: none;
+    border-radius: 4px;
+}
+.bt{
+    padding: 12px 16px;
+    color: white;
+    font-weight: 700;
+    background:transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+#banner {
+    max-width: 1600px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding:115.5px 120px 179.5px 120px;
+}
+.banner-container{
+    max-width: 770px;
+    text-align: center;
+}
+.banner-container .msg{
+    color: #30b868;
+    background-color:rgba(255, 255, 255, 1) ;
+    margin: 0 auto;
+    width: 229px;
+    height:35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1000px;
+    margin-bottom: 16px;
+    font: size 16px;;
+}
+.banner-container .structure-content h1{
+    margin: 0px auto;
+    /* max-width:770px; */
+    font-size: 72px;
+    text-align: center;
+    color: white;
+    margin-bottom: 16px;
+}
+.banner-container .structure-content p{
+    margin: 0px auto;
+   /* max-width:770px; */
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+.button-banner{
+    margin: 0px auto;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
