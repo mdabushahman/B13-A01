@@ -75,6 +75,7 @@ nav .menu {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 6px;
     border-radius: 1000px;
     margin-bottom: 16px;
     font: size 16px;;
@@ -159,8 +160,12 @@ nav .menu {
     background-color: #F95555;
     width: 60px;
     height: 60px;
-    border: 1000px;
+    padding: 14px;
+    /* padding:14.04px 13.91px 13.96px 14.09px; */
+    border:none;    
+    border-radius: 29px;    
     margin-bottom: 16px;
+    text-align: center;
 }
 .card h3{
     font-size: 24px;
