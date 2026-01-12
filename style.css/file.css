@@ -12,8 +12,6 @@ header{
 body {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
 }
 nav{
     max-width: 1600px;
@@ -229,7 +227,7 @@ nav .menu {
      text-align: center;
 }
 #early-access .access-container{
-    max-width: 1360px;
+    width: 1360px;
     background-color:#F7F6F2;
     padding: 80px 40px;
      
@@ -258,4 +256,35 @@ nav .menu {
     background-color: transparent;
     color: #30b868;
     border: 1px solid #30b868 ;
+}
+#footer{
+    background-color: #001931;
+    width: 1600px;
+    margin: 0px auto;
+    padding: 120px 120px 30px 120px;
+}
+#footer .footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 84px;
+}
+#footer .footer-container .icons h1{
+  color: white;
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 400px;
+}
+.icons img{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 2px black;
+    border-radius: 6px;
+    margin: 8px;
+}
+.copyright{
+    color: white;
+    text-align: center;
+    font-size: 16px;
 }
