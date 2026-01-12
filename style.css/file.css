@@ -39,6 +39,11 @@ nav .menu {
     border: none;
     border-radius: 4px;
 }
+.btn:hover{
+    background-color: transparent;
+    color: #30b868;
+    border: 1px solid #30b868 ;
+}
 .bt{
     padding: 12px 16px;
     color: white;
@@ -46,6 +51,11 @@ nav .menu {
     background:transparent;
     border: 1px solid white;
     border-radius: 4px;
+}
+.bt:hover{
+    background-color: transparent;
+    color: #30b868;
+    border: 1px solid #30b868 ;
 }
 #banner {
     max-width: 1600px;
@@ -213,4 +223,39 @@ nav .menu {
 .solution-box ul img{
     width: 20px;
     height: 20px;
+}
+#early-access{
+     padding: 0px 120px 120px 120px;
+     text-align: center;
+}
+#early-access .access-container{
+    max-width: 1360px;
+    background-color:#F7F6F2;
+    padding: 80px 40px;
+     
+}
+#early-access .access-container h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+#early-access .access-container p{
+    font-size: 16;
+    color: #627382;
+    margin-bottom: 24px;
+}
+#early-access .access-container button{
+    padding: 12px 16px;
+    color: white;
+    font-weight: 600;
+    background: #30b868;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 10px 20px 0px #00000019;
+    margin-bottom:16px;
+}
+#early-access .access-container button:hover{
+    background-color: transparent;
+    color: #30b868;
+    border: 1px solid #30b868 ;
 }
